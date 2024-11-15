@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <title>New Post</title>
+</head>
+<body>
+    <div class="container2">
+    <h1>Add Post</h1>
+    <a href="/feed">Back</a>
+    <form action="/addPost" method="POST">
+        <label for=""> Title:</label>
+        <input type="text" name="title" placeholder="Name" required>
+        <label for=""> Message</label>
+        <textarea name="content" placeholder="Message" required></textarea>
+        <button type="submit">Add Your Message</button>
+    </form>
+</div>
+</body>
+</html>
